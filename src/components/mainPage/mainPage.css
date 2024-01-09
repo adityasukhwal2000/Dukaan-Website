@@ -1,0 +1,360 @@
+.flex {
+  display: flex;
+}
+
+/* rightPage */
+
+.rightPage {
+  background-color: #fafafa;
+  width: 92%;
+  min-height: 100vh;
+}
+
+/* right top */
+
+.rightTop {
+  background-color: #ffffff;
+  height: 60px;
+  padding: 19px 23px;
+  box-shadow: 2px 1.3px #dbd9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-topNavbar {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.how-it-works {
+  padding-left: 15px;
+}
+
+.how-it-works a {
+  color: black;
+}
+
+.how-it-works p {
+  padding-left: 9px;
+  font-size: 10px;
+  /* padding-top: 2px; */
+}
+
+.center-topNavbar {
+  background: #f2f2f2;
+  width: 310px;
+  height: 31px;
+  border-radius: 4px;
+}
+
+.center-topNavbar figure {
+  padding: 6px 6px;
+}
+
+input {
+  outline: none;
+  width: 280px;
+  border: none;
+  background: #f2f2f2;
+  border-top-right-radius: 4px;
+  padding: 7px 1px;
+  border-bottom-right-radius: 4px;
+}
+
+.right-topNavbar {
+  gap: 12px;
+}
+
+.right-topNavbar figure {
+  background: #e6e6e6;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border-radius: 17px;
+}
+
+.right-topNavbar figure:hover {
+  background-color: #cdc9c9;
+  cursor: pointer;
+}
+
+.right-topNavbar svg:first-child {
+  margin: -8px 0;
+}
+
+/* rightBottom */
+
+.rightBottom {
+  padding: 22px;
+}
+
+.overview {
+  justify-content: space-between;
+}
+
+.last-month {
+  border: 1px solid #eaeaea;
+  background: white;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.last-month p {
+  font-size: 16px;
+}
+
+.last-month svg {
+  width: 12px;
+  margin-left: 6px;
+}
+
+.online-amount {
+  display: flex;
+  gap: 20px;
+  padding-top: 22px;
+}
+
+.second-background {
+  background: white;
+  padding: 21px 12px;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.second-background p {
+  font-size: 15px;
+}
+
+.second-background h4 {
+  font-size: 28px;
+}
+
+.online-orders,
+.amount-received {
+  width: 50%;
+}
+
+/* third */
+
+.transactions {
+  padding-top: 22px;
+}
+
+.this-month {
+  font-size: 18px;
+}
+
+.search-sort {
+  justify-content: space-between;
+}
+
+.all-data-div {
+  background-color: white;
+  margin-top: 22px;
+  border-radius: 4px;
+}
+
+.all-data {
+  padding: 10px;
+}
+
+.this-month-search {
+  justify-content: space-between;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  width: 227px;
+}
+
+.this-month-search figure {
+  padding: 9px 5px 0px 5px;
+}
+
+.data-search input {
+  width: 198px;
+  background-color: white;
+}
+
+.sort-download {
+  gap: 7px;
+  align-items: center;
+}
+
+.Sort {
+  border: 2px solid #ececec;
+  border-radius: 5px;
+  align-items: center;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.Sort p {
+  font-size: 13px;
+}
+
+.double-arrow svg {
+  width: 18px;
+  height: 12px;
+}
+
+.download-btn {
+  width: 29px;
+  height: 28px;
+  border: 2px solid #ececec;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-btn svg {
+  width: 24px;
+  height: 21px;
+}
+
+/* table data */
+.table {
+  padding-top: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  color: #4c4c4c;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.order-date {
+  padding-left: 83px;
+  cursor: pointer;
+}
+
+.order-amount {
+  margin-left: 49px;
+}
+
+.order-date svg {
+  margin-left: 4px;
+}
+
+.transaction-fees svg {
+  margin-left: 4px;
+}
+
+.transaction-fees figure {
+  padding-top: 2px;
+}
+
+.thead-data {
+  background: #f2f2f2;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+th {
+  padding: 9px 19px 9px 13px;
+}
+
+.json-data-rows {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid #ececec;
+  font-size: 11px;
+  font-weight: 600;
+  width: 98%;
+  margin: auto;
+}
+
+.blue-id {
+  color: #1367a8;
+}
+
+/* pagination */
+
+.pagination {
+  justify-content: center;
+  align-items: center;
+  padding: 22px 0 16px 0;
+}
+
+.previous-next {
+  border: 2px solid #dddddd;
+  padding: 3px 5px;
+  border-radius: 5px;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.previous-next p {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.previous-next svg {
+  width: 19px;
+  height: 21px;
+}
+
+.pageNum {
+  padding: 0 11px;
+  cursor: pointer;
+}
+
+.pageNum p {
+  padding: 4px 14px;
+  font-size: 13px;
+}
+
+p.blue-num {
+  background: #146eb4;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 7px;
+}
+
+@media only screen and (max-width: 765px) {
+  input {
+    width: 141px;
+  }
+
+  .center-topNavbar {
+    width: 199px;
+  }
+
+  .rightPage {
+    width: 531px;
+  }
+
+  .second-background h4 {
+    font-size: 24px;
+  }
+
+  .previous-next p {
+    font-weight: 500;
+    font-size: 9px;
+  }
+
+  .pageNum p {
+    padding: 4px 7px;
+    font-size: 8px;
+  }
+
+  .previous-next svg {
+    width: 8px;
+    height: 13px;
+  }
+
+  .previous-next {
+    gap: 0;
+  }
+
+  .pageNum {
+    padding: 0 9px;
+  }
+}

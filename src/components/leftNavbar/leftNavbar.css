@@ -1,0 +1,133 @@
+.left-navbar {
+  background: #1e2640;
+  width: 230px;
+  padding: 17px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #d2d4d9;
+}
+
+.text-icons {
+  display: flex;
+  padding: 7px 10px;
+  gap: 13px;
+  /* align-items: center; */
+}
+
+.text-icons:hover {
+  background: #343c53;
+  border-radius: 5px;
+}
+
+.text-icons p {
+  font-size: 13px;
+}
+
+.logoImg img {
+  border-radius: 5px;
+}
+
+.name {
+  padding-left: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.name svg {
+  cursor: pointer;
+}
+
+.down-arrow {
+  margin-left: 48px;
+}
+
+.name p {
+  color: white;
+  font-size: 14px;
+}
+
+.name a {
+  text-decoration: underline;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+}
+
+.Nav-options {
+  padding-top: 19px;
+}
+
+.fix-credits {
+  background: #353c53;
+  padding: 9px;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.fix-credits figure {
+  text-align: center;
+  background: #495064;
+  width: 26px;
+  height: 26px;
+  border-radius: 3px;
+}
+
+.fix-credits figure svg {
+  height: 27px;
+}
+
+.available-credits {
+  line-height: 18px;
+  padding-left: 11px;
+}
+
+.available-credits p {
+  font-size: 11px;
+  color: #b9bbc3;
+}
+
+.available-credits h5 {
+  font-size: 12.5px;
+  color: white;
+  font-weight: 400;
+}
+
+a.active .payments-active {
+  background: #343c53;
+  border-radius: 5px;
+}
+
+.active-payment {
+  display: none;
+}
+.non-active-payment {
+  display: block;
+}
+
+.paymens-active a.active p {
+  color: white;
+}
+
+.paymens-active a.active .active-payment {
+  display: block;
+}
+
+.paymens-active a.active .non-active-payment {
+  display: none;
+}
+
+@media only screen and (max-width: 1205px) {
+  .name a {
+    font-size: 10px;
+  }
+}
